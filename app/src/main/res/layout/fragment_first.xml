@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chris.multifragmentdemo.FirstFragment"
+    android:background="@android:color/holo_red_dark">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello First Fragment"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Second Fragment"
+        android:id="@+id/buttonGotoSecond"
+        android:layout_gravity="center" />
+
+</FrameLayout>
